@@ -22,7 +22,7 @@ id,name,status,mdisk_count,vdisk_count,capacity,extent_size,free_capacity,virtua
 17,VIC2_HIGH_G1000_58517,online,59,2279,735.84TB,2048,373.00TB,512.81TB,353.81TB,359.75TB,69,80,on,active,no,0.00MB,0.00MB,0.00MB,17,VIC2_HIGH_G1000_58517,0,0.00MB,parent,no,none,,
 ```
 
-copy the output and save it in to a a csv file with the following naming:
+copy the output and save it in to your folder, as a csv file with following naming style:
 
 ```
 SVCPE0<x>00_DUS_pools.csv
@@ -39,7 +39,7 @@ lsvdiskcopy -delim , | head -n 1; lsvdiskcopy -delim , | grep <SOURCE_POOL_NAME>
 ```
 
 
-copy the output and save it in to a txt file named
+copy the output and save it in to your folder, as a csv file with following naming style:
 
 ```
 SVCPE0<x>00_DUS_<SOURCE_POOL_NAME>.csv
